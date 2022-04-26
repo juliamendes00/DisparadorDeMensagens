@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Conselho do Dia</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div onclick="SendZap(this)">
+      <p>Bom dia, luz do dia! 🌞</p>
+      <img
+      src="https://upload.wikimedia.org/wikipedia/commons/1/19/WhatsApp_logo-color-vertical.svg";</img>
+    </div>
+
+    <div onclick="SendZap(this)">
+      <p> O Ministério da Saúde adverte: Praticar o bom humor evita fadiga, estresse, encrencas e até mortes</p>
+      <img
+      src="https://upload.wikimedia.org/wikipedia/commons/1/19/WhatsApp_logo-color-vertical.svg";</img>
+    </div>
+
+    <div onclick="SendZap(this)">
+      <p>Bom dia! Seja feliz pelo que você tem enquanto trabalha pelo que deseja.</p>
+      <img
+      src="https://upload.wikimedia.org/wikipedia/commons/1/19/WhatsApp_logo-color-vertical.svg";</img>
+    </div>
+
+    <div onclick="SendZap(this)">
+      <p>Conselho do dia: um bom dia começa com boas ações e positividade.</p>
+      <img
+      src="https://upload.wikimedia.org/wikipedia/commons/1/19/WhatsApp_logo-color-vertical.svg";</img>
+    </div>
+
+    <div onclick="SendZap(this)">
+      <p> Para expressar seu mau humor, você precisa movimentar 102 músculos da face; para sorrir, apenas 6. Exercite a lei do menor esforço</p>
+      <img
+      src="https://upload.wikimedia.org/wikipedia/commons/1/19/WhatsApp_logo-color-vertical.svg";</img>
+    </div>
+
+    <div onclick="SendZap(this)">
+      <p>O pessimista afirma que já atingimos o fundo do poço, o otimista acha q dá pra cair mais</p>
+      <img
+      src="https://upload.wikimedia.org/wikipedia/commons/1/19/WhatsApp_logo-color-vertical.svg";</img>
+    </div>
+
+    <div onclick="SendZap(this)">
+        <p>Nunca desista de seu sonho. Se ele acabou numa padaria, procure em outra.</p>
+        <img
+        src="https://upload.wikimedia.org/wikipedia/commons/1/19/WhatsApp_logo-color-vertical.svg";</img>
+    </div>
+
+    <div onclick="SendZap(this)">
+        <p>O sentido da vida é que ninguém sabe o sentido da vida.</p>
+        <img
+        src="https://upload.wikimedia.org/wikipedia/commons/1/19/WhatsApp_logo-color-vertical.svg";</img>
+    </div>
+  </body>
+  
+  <script>
+      function SendZap(Tag) {
+        let text = Tag.firstElementChild.innerText
+        let number = prompt("Qual é o número?");
+        let link = `https://api.whatsapp.com/send?phone=55${number}&text=${text}`;
+
+        window.open(link);
+      }
+      
+  </script>
+</html>
