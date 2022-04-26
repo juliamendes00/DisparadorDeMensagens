@@ -23,7 +23,7 @@ div {
 div:hover {
   box-shadow: 4px 4px rgba(0, 0, 0, 0.4);
   cursor: pointer; /*altera cursor*/
-} /*altera quando em contato com o mouse*/
+}
 
 img {
   width: 40px;
