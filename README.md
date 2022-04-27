@@ -9,6 +9,6 @@ Linguagens utilizadas: HTML, CSS e Javascript
 
 Link do site: https://z0eifj.csb.app
 
-Projeto realizado seguindo os passos do "Desafio Driven Education", escola de tecnologia EaD.
+Projeto realizado seguindo os passos do Desafio Programando Na Prática da escola Driven Education.
 
 
