@@ -1,6 +1,7 @@
 # DisparadorDeMensagens
 
-Projeto de Disparador de Mensagens para Whatsapp através de números de telefone.
+Projeto de Disparador de Mensagens para Whatsapp através de links contendo um número de telefone.
+
 Linguagens utilizadas: HTML, CSS e Javascript
 
 ![image](https://user-images.githubusercontent.com/95457629/165322637-13219014-1153-4cc2-af35-6a4f66959893.png)
